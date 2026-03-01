@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-container">
+    <h2>Join Chat Room</h2>
+    <input id="username" placeholder="Enter Username" />
+    <input id="room" placeholder="Enter Room Name" />
+    <button onclick="joinRoom()">Join</button>
+</div>
+
+<div class="chat-container" style="display:none;">
+    <h2 id="room-name"></h2>
+    <ul id="messages"></ul>
+
+    <form id="form">
+        <input id="input" autocomplete="off" placeholder="Type message..." />
+        <button>Send</button>
+    </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
