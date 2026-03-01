@@ -99,3 +99,5 @@ http://localhost:3000
 
 *OUTPUT*:
 
+<img width="1882" height="1025" alt="Image" src="https://github.com/user-attachments/assets/06c4f60f-236d-4b43-9635-9ed65495dd3a" />
+<img width="1910" height="1005" alt="Image" src="https://github.com/user-attachments/assets/66b5de58-e084-4a19-add9-43f4b2fac9b3" />
